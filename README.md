@@ -27,13 +27,6 @@ head(teamcolors)
     ## 4      Arizona Coyotes    nhl #010101   #862633  #ddcba4       <NA>
     ## 5 Arizona Diamondbacks    mlb #a71930   #000000  #e3d4ad       <NA>
     ## 6              Arsenal    epl #ef0107   #023474  #9c824a       <NA>
-    ##   division
-    ## 1     <NA>
-    ## 2  Pacific
-    ## 3 NFC West
-    ## 4  Pacific
-    ## 5  NL West
-    ## 6     <NA>
 
 Plot
 ----
@@ -66,8 +59,6 @@ ggplot(pythag, aes(x = wpct, y = exp_wpct, color = name, fill = name)) +
        caption = "Source: the Lahman baseball database. Using teamcolors R pckg") +
   coord_equal()
 ```
-
-    ## Warning: Removed 1 rows containing missing values (geom_point).
 
 ![](README_files/figure-markdown_github-ascii_identifiers/ggplot-1.png)
 
